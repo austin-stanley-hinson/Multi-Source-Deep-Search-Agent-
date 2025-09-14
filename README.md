@@ -22,4 +22,11 @@ Multi-Source AI Research Agent: A Streamlit web app that performs parallel searc
 git clone https://github.com/austin-stanley-hinson/Multi-Source-Deep-Search-Agent.git
 cd Multi-Source-Deep-Search-Agent
 
+python -m venv .venv
+source .venv/bin/activate  # Mac/Linux
+.venv\Scripts\activate     # Windows
+
+pip install -r requirements.txt
+
+
 
